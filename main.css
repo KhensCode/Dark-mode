@@ -1,0 +1,37 @@
+body{
+    background-color: burlywood;
+    color:white;
+}
+body.dark-mode{
+    background-color: black;
+    color:burlywood;
+}
+body.dark-mode #toggle-button{
+    background-color: black;
+    color: burlywood;
+}
+#toggle-button{
+    font-size:4rem;
+    padding:20px;
+    width:max-content;
+    display: flex;
+background-color: transparent;
+    cursor: pointer;
+    border: none;
+    color: rgb(17, 2, 2);
+    outline: none;
+    
+     opacity: 0.6;
+}
+
+#toggle-button:hover{
+color: rgb(92, 91, 91);
+    opacity: 0.5;
+}
+body{
+    
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    margin-top: 10%;
+}
